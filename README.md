@@ -1,4 +1,5 @@
 DIRECTIONS:
-1. Download the raw file(all the way to your right)
-2. Click open file
-3. DONE!
+1. Open SCIENCE-FAIR.html
+2. Download the raw file(all the way to your right)
+3. Click open file
+4. DONE!
