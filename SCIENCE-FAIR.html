@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Marcrophage</title>
+  </head>
+<style>
+    .page-title {
+  width: 100%;
+  float: right;
+  margin: 0px 0 20px 0;
+  padding: 0px;
+  font-family: cursive;
+  font-size: 48px;
+  color: peru;
+  letter-spacing: -0.5px;
+  line-height: 48px;
+  font-weight: large;
+  font-style: normal;
+  transition: 1s;
+}
+
+h1, h2, p, button {
+  font-family: cursive;
+}
+
+.Credits {
+  position: absolute;
+  right: 50px;
+  border-style: solid;
+  border-radius: 1mm;
+  font-family: cursive;
+  text-align: center;
+}
+
+.Q {
+  background-color: #98ACCC;
+  font-size: 25px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.revealQ {
+  font-size: 25px;
+  background-color: #98ACCC;
+}
+
+.Q:hover {
+  background-color: #3064B3;
+}
+
+</style>
+</html>
+<h1 class="page-title">Marcrophage</h1>
+<div class="Credits">
+  <p>
+    <h4>  MYP 1 B</h4>
+    Adam<br>
+    Gloria<br>
+    Sharbel<br>
+    Danial Gorges<br>
+    Danial Ramy<br>
+  </p>
+</div>
+<img style="width:50mm" alt="STATUP IMAGE" src="https://immuno-oncologynews.com/wp-content/uploads/2015/03/shutterstock_41700709.jpg"></img>
+<h2>Picture of a Marcrophage.</h2>
+<p>The Macrophage is a usefull part of the body, henceforth, it sends cytokines that signal other parts of the body and comunicate and also removes cancer cells and protects you.</p>
+<p>It is a type of white blood cell.</p>
+<h2>More pictures of Macrophages</h2>
+<img alt="IMAGE OF MACROPHAGE" src="https://www.rheumatologyadvisor.com/wp-content/uploads/sites/18/2019/08/Macrophage_G_1088373926.jpg" style="width: 20%;"><br><br>
+<img alt="IMAGE OF MACROPHAGE" src="https://www.thoughtco.com/thmb/NHn2tiRiKeexsubRLyBESjbTsZo=/1500x1000/filters:fill(auto,1)/macrophage_fighting_bacteria-56a09af03df78cafdaa32cb3.jpg" style="width: 20%;"><br>
+<h1>Facts about Macrophage</h1>
+<h2>Fun fact</h2>
+<p>The name actually means "Big Eater" in Greek.</p>
+<img alt="LAUGHING EMOJI" src="https://th.bing.com/th/id/OIP.cGOSBRLb7dazcAVeitJYqQHaHJ?rs=1&pid=ImgDetMain" style="width:5%;">
+<p>
+  <span style="color: red;">Red</span> macrophages are activated.<br>
+  <span style="color:gold;">Yellow</span> macrophages are wound healing.<br>
+  <span style="color:blue;">Blue</span> macrophages are regulatory.<br>
+</p>
+<h2>Sad fact</h2>
+<p>Classically activated macrophages can cause tissue damage.</p>
+<img alt="SAD EMOJI" src="https://th.bing.com/th/id/R.a03b7481be44da4407ddef8ac9c9dc05?rik=SZ2a8BLIBC%2bd7w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-r49xbsaV2D0%2fUOVsoWRimSI%2fAAAAAAAAB7U%2fLAhYb8ZNeRg%2fs1600%2fface-sad.png&ehk=W6qax6pJ88XE5BQGGsBgkRK6SC2tEFuox%2bCgUT03Qlk%3d&risl=&pid=ImgRaw&r=0" style="width:5%;">
+<h1>GAME time!</h1>
+<iframe src="https://scratch.mit.edu/projects/950723821/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="Q" onclick="displayQ1()">Macrophages are a type of ________.</button>
+<p class="revealQ" id="revealQ1"></p><br><br>
+<button class="Q" onclick="displayQ2()">What is a Macrophage?</button>
+<p class="revealQ" id="revealQ2"></p>
+<script>
+    function displayQ1() {
+  document.getElementById("revealQ1").innerHTML = "MONOCYTE";
+  setTimeout(function() {
+    document.getElementById("revealQ1").innerHTML = "";
+  }, 5000);
+}
+function displayQ2() {
+  document.getElementById("revealQ2").innerHTML = "A type of white blood cell that removes pathogens like cancer cells, and sends cytokines to the body system.";
+  setTimeout(function() {
+    document.getElementById("revealQ2").innerHTML = "";
+  }, 10000);
+}
+</script>
