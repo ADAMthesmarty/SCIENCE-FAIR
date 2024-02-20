@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Marcrophage</title>
-    </head>
+
+  <head>
+    <title>Marcrophage</title>
+  </head>
 <style>
-    .page-title{
-    width: 100%;
-    float: right;
-    margin: 0px 0 20px 0;
-    padding: 0px;
-    font-family: cursive;
-    font-size: 48px;
-    color: peru;
-    letter-spacing: -0.5px;
-    line-height: 48px;
-    font-weight: large;
-    font-style: normal;
-    transition: 1s;
-    }
-    h1, h2, p{
-        font-family: cursive;
-    }
-    .Credits{
-        position: absolute;
-        right:50px;
-        border-style: solid;
-        border-radius: 1mm;
-    }
+    .page-title {
+  width: 100%;
+  float: right;
+  margin: 0px 0 20px 0;
+  padding: 0px;
+  font-family: cursive;
+  font-size: 48px;
+  color: peru;
+  letter-spacing: -0.5px;
+  line-height: 48px;
+  font-weight: large;
+  font-style: normal;
+  transition: 1s;
+}
+
+h1, h2, p, button {
+  font-family: cursive;
+}
+
+.Credits {
+  position: absolute;
+  right: 50px;
+  border-style: solid;
+  border-radius: 1mm;
+}
+
+.Q1 {
+  background-color: #98ACCC;
+  font-size: 25px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.revealQ1 {
+  font-size: 30px;
+}
+
+.Q1:hover {
+  background-color: #3064B3;
+}
+
 </style>
 </html>
 <h1 class="page-title">Marcrophage</h1>
 <div class="Credits">
-    <p>
-        <h4>MYP 1 B</h4>
-        Adam<br>
-        Gloria<br>
-        Sharbel<br>
-        Danial Gorges<br>
-        Danial Ramy<br>
-    </p>
+  <p>
+    <h4>MYP 1 B</h4>
+    Adam<br>
+    Gloria<br>
+    Sharbel<br>
+    Danial Gorges<br>
+    Danial Ramy<br>
+  </p>
 </div>
-<img style="width:50mm" alt="OIP STATUP IMAGE"src="https://immuno-oncologynews.com/wp-content/uploads/2015/03/shutterstock_41700709.jpg"></img>
+<img style="width:50mm" alt="OIP STATUP IMAGE" src="https://immuno-oncologynews.com/wp-content/uploads/2015/03/shutterstock_41700709.jpg"></img>
 <h2>Picture of a Marcrophage.</h2>
 <p>The Macrophage is a usefull part of the body, henceforth, it sends cytokines that signal other parts of the body and comunicate and also removes cancer cells and protects you.</p>
 <p>It is a type of white blood cell.</p>
@@ -52,12 +71,28 @@
 <p>The name actually means "Big Eater" in Greek.</p>
 <img src="https://th.bing.com/th/id/OIP.cGOSBRLb7dazcAVeitJYqQHaHJ?rs=1&pid=ImgDetMain" style="width:5%;">
 <p>
-    Red macrophages are activated.<br>
-    Yellow macrophages are wound healing.<br>
-    Blue macrophages are regulatory.<br>
+  Red macrophages are activated.<br>
+  Yellow macrophages are wound healing.<br>
+  Blue macrophages are regulatory.<br>
 </p>
 <h2>Sad fact</h2>
 <p>Classically activated macrophages can cause tissue damage.</p>
 <img src="https://th.bing.com/th/id/R.a03b7481be44da4407ddef8ac9c9dc05?rik=SZ2a8BLIBC%2bd7w&riu=http%3a%2f%2f1.bp.blogspot.com%2f-r49xbsaV2D0%2fUOVsoWRimSI%2fAAAAAAAAB7U%2fLAhYb8ZNeRg%2fs1600%2fface-sad.png&ehk=W6qax6pJ88XE5BQGGsBgkRK6SC2tEFuox%2bCgUT03Qlk%3d&risl=&pid=ImgRaw&r=0" style="width:5%;">
 <h1>GAME time!</h1>
 <iframe src="https://scratch.mit.edu/projects/950723821/embed" allowtransparency="true" width="100%" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="Q1" onclick="displayQ1()">Macrophages are a type of ________</button>
+<p class="revealQ1" id="revealQ1"></p>
+<script>
+    function displayQ1() {
+  document.getElementById("revealQ1").innerHTML = "MONOCYTE";
+  setTimeout(function() {
+    document.getElementById("revealQ1").innerHTML = "";
+  }, 5000);
+}
+
+</script>
